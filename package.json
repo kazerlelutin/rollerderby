@@ -1,0 +1,27 @@
+{
+  "name": "roller-derby",
+  "version": "0.0.01",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazerlelutin/rollerderby"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@kll_/basic": "^0.1.2",
+    "@kll_/core": "^0.1.67",
+    "@kll_/translate": "^0.1.4",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "uuid": "^9.0.1",
+    "vite": "^5.2.6",
+    "vite-plugin-full-reload": "^1.1.0"
+  }
+}
