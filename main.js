@@ -14,6 +14,7 @@ const params = {
   routes: {
     '/': import('./pages/index.html?raw').then((m) => m.default),
     '/about': import('./pages/about.html?raw').then((m) => m.default),
+    '/offskate': import('./pages/offskate.html?raw').then((m) => m.default),
   },
   plugins: [
     CreateComponentPlugin,

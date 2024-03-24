@@ -22,28 +22,19 @@ module.exports = {
           text: '#000',
           link: "#216632",
           highlight: "#bdad00",
+          sagwa_young: "#76B041",
+          sagwa: "#FFC107",
+          sagwa_old: "#D32F2F",
+          urban_gray: "#37474F",
+          sand: "#DDD5C1",
+          pur: "#ffffff",
+
         },
         dark: {
           text: '#ebeadd',
           bg: '#000',
           link: "#378C4C",
           highlight: "#bfba1d",
-        },
-        light: {
-          bg: '#f7f6f3',
-          'bg-dark': '#bec0c7',
-          text: '#121523',
-          'text-invert': '#fff',
-          'highlight-dark': '#015657',
-          card: '#d4dadd',
-          'card-dark': '#8690b3',
-        },
-
-        twitch: {
-          primary: '#5c16c5',
-        },
-        canvas: {
-          default: '#121523',
         },
       },
     },
