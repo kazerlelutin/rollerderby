@@ -2,3 +2,9 @@ export * as basicLayout from './basic-layout.html?raw'
 export * as header from './header.html?raw'
 export * as footer from './footer.html?raw'
 export * as rupteur from './rupteur.html?raw'
+export * as returnButton from "./returnButton.html?raw"
+export * as tabs from "./tabs.html?raw"
+export * as generateOffskate from "./generateOffskate.html?raw"
+export * as themesOffskate from "./themesOffskate.html?raw"
+export * as historyOffskate from "./historyOffskate.html?raw"
+export * as generateWarmup from "./generateWarmup.html?raw"

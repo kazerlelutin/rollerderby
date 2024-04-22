@@ -1,9 +1,12 @@
 <div kll-t="basicLayout">
-  <div class="gap-2 flex flex-col h-full p-3">
-    <div>RETOUR</div>
-    <div>
-      <div>OFFSKATE</div>
-      <div>Onglets -- générer | historique</div>
+  <div class="gap-2 flex flex-col h-full p-3 pt-0">
+    <div kll-tc="returnButton"></div>
+    <div kll-tc="tabs" data-active="generate" kll-l>
+      <div>
+        <div data-tabs="generate"><div kll-tc="generateOffskate"></div></div>
+        <div data-tabs="themes"><div kll-tc="themesOffskate"></div></div>
+        <div data-tabs="history"><div kll-tc="historyOffskate"></div></div>
+      </div>
     </div>
   </div>
 </div>

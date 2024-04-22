@@ -49,4 +49,19 @@ export const translation = {
     en: "Warmup",
     ko: "워밍업",
   },
+  generate: {
+    fr: "Générer",
+    en: "Generate",
+    ko: "생성",
+  },
+  themes: {
+    fr: "Thèmes",
+    en: "Themes",
+    ko: "테마",
+  },
+  history: {
+    fr: "Historique",
+    en: "History",
+    ko: "역사",
+  },
 };

@@ -6,17 +6,17 @@ function createTemplate(id) {
     ''
   )
 
-  const templateFolder = path.resolve(process.cwd(), `./front/templates`)
+  const templateFolder = path.resolve(process.cwd(), `./templates`)
   const indexTemplate = path.resolve(
     process.cwd(),
-    `./front/templates/index.js`
+    `./templates/index.js`
   )
 
   if (!fs.existsSync(templateFolder)) {
     fs.mkdirSync(templateFolder)
   }
 
-  const pathFile = path.resolve(process.cwd(), `./front/templates/${id}.html`)
+  const pathFile = path.resolve(process.cwd(), `./templates/${id}.html`)
 
   if (fs.existsSync(pathFile)) {
     console.log(`\n${key} already exist`)

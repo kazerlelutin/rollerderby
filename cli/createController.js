@@ -23,14 +23,14 @@ function createController(id) {
     `  };`
   ].join('')
 
-  const ctrlFolder = path.resolve(process.cwd(), `./front/ctrl`)
-  const indexctrl = path.resolve(process.cwd(), `./front/ctrl/index.js`)
+  const ctrlFolder = path.resolve(process.cwd(), `./ctrl`)
+  const indexctrl = path.resolve(process.cwd(), `./ctrl/index.js`)
 
   if (!fs.existsSync(ctrlFolder)) {
     fs.mkdirSync(ctrlFolder)
   }
 
-  const pathFile = path.resolve(process.cwd(), `./front/ctrl/${id}.js`)
+  const pathFile = path.resolve(process.cwd(), `./ctrl/${id}.js`)
 
   if (fs.existsSync(pathFile)) {
     console.log(`\n${key} already exist`)
